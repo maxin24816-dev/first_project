@@ -1,0 +1,47 @@
+body{
+    color: white;
+    justify-self: center;
+    background-color: black;
+    margin: 0;
+}
+main{
+    flex-grow: 1;
+}
+#pic{
+    display: flex;
+    flex-direction: column;
+    background-image: url(img/bg.jpg);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 95vh;
+}
+header{
+    display: flex;
+    align-items: center;
+}
+#to_main{
+    justify-self: flex-start;
+}
+header div{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+footer div{
+    display: grid;
+    grid-template-areas: "a b"
+                         "c d";
+    background-color: rgba(100, 67, 177, 0.425);
+}
+#name{
+    grid-area: a;
+}
+#mail{
+    grid-area: b;
+}
+#phone{
+    grid-area: c;
+}
+#tt{
+    grid-area: d;
+}
