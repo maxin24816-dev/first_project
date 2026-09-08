@@ -3,21 +3,24 @@ body{
     justify-self: center;
     background-color: black;
     margin: 0;
+    background-repeat: no-repeat;
+    background-image: url(img/photo-1616712134411-6b6ae89bc3ba.avif);
+    background-size: cover;
+
 }
 main{
     flex-grow: 1;
+    grid-area: main;
 }
 #pic{
     display: flex;
     flex-direction: column;
-    background-image: url(img/bg.jpg);
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 95vh;
+    height: 100vh;
 }
 header{
     display: flex;
     align-items: center;
+    grid-area: header;
 }
 #to_main{
     justify-self: flex-start;
@@ -31,7 +34,9 @@ footer div{
     display: grid;
     grid-template-areas: "a b"
                          "c d";
-    background-color: rgba(100, 67, 177, 0.425);
+    background-color: rgba(60, 36, 112, 0.281);
+    border-radius: 5%;
+    padding: 1%;
 }
 #name{
     grid-area: a;
