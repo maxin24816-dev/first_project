@@ -4,7 +4,7 @@ body{
     background-color: black;
     margin: 0;
     background-repeat: no-repeat;
-    background-image: url(img/photo-1616712134411-6b6ae89bc3ba.avif);
+    background-image: url(img/bg.avif);
     background-size: cover;
 
 }
@@ -49,4 +49,17 @@ footer div{
 }
 #tt{
     grid-area: d;
+}
+.choice img{
+    width: 6em;
+    height: 6em;
+    background-color: transparent;
+}
+.choice h3{
+    opacity: 0;
+}
+#choice_grid{
+    display: grid;
+    grid-template-columns: 6;
+    grid-template-rows: 2;
 }
