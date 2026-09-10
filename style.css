@@ -6,12 +6,21 @@ body{
     background-repeat: no-repeat;
     background-image: url(img/bg.avif);
     background-size: cover;
-
+    font-family: "Scoutie Sans", sans-serif;
 }
 main{
     flex-grow: 1;
     grid-area: main;
 }
+main div{
+    margin: 2%;
+}
+main div h1, h2, main h1, h3{
+    font-weight: 600;
+    justify-self: center;
+    text-align: center;
+}
+
 #pic{
     display: flex;
     flex-direction: column;
@@ -21,9 +30,22 @@ header{
     display: flex;
     align-items: center;
     grid-area: header;
+    background-color: rgba(0, 0, 0);
+    border-radius: 5%;
+}
+header button{
+    background-color: transparent;
+    font-weight: 500;
+    font-size: large;
+    color: white;
+    padding: 1%;
+    border-radius: 10%;
+    margin: 1%;
 }
 #to_main{
     justify-self: flex-start;
+    border: 0;
+    font-size: xx-large;
 }
 header div{
     display: flex;
@@ -34,7 +56,7 @@ footer div{
     display: grid;
     grid-template-areas: "a b"
                          "c d";
-    background-color: rgba(60, 36, 112, 0.281);
+    background-color: rgba(0, 0, 0, 0.7);
     border-radius: 5%;
     padding: 1%;
 }
@@ -50,13 +72,29 @@ footer div{
 #tt{
     grid-area: d;
 }
+.choice{
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-items: center;
+}
 .choice img{
-    width: 6em;
-    height: 6em;
+    width: 7em;
+    height: 7em;
     background-color: transparent;
+    grid-row: 1;
 }
 .choice h3{
     opacity: 0;
+    grid-row: 2;
+}
+.choice:hover{
+    cursor: pointer;
+}
+.choice:hover h3{
+    opacity: 1;
+}
+#problematic{
+    width: 10em; 
 }
 #choice_grid{
     display: grid;
