@@ -34,6 +34,7 @@ header{
     grid-area: header;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 5%;
+    width: 98vw;
 }
 header button{
     background-color: transparent;
@@ -48,6 +49,9 @@ header button{
     justify-self: flex-start;
     border: 0;
     font-size: xx-large;
+}
+button:hover{
+    cursor: pointer;
 }
 header div{
     display: flex;
@@ -102,6 +106,7 @@ footer div{
     display: grid;
     grid-template-columns: 6;
     grid-template-rows: 2;
+    margin: auto 5%;
 }
 #profile{
     display: grid;
@@ -109,11 +114,19 @@ footer div{
     margin: auto 15%;
 }
 #profile img{
-    justify-self: center;
+    justify-self: flex-end;
     grid-column: 1;
     border-radius: 25%;
+    margin: auto 1%;
 }
 #profile h1{
     justify-self: flex-start;
     grid-column: 2;
+    margin: auto 1%;
+}
+#profile h2{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.6;
+    margin: auto 2.5rem;
 }
