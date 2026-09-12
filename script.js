@@ -7,11 +7,11 @@ to_main.addEventListener("click", () => {
     window.location.href = "index.html";
 })
 to_all.addEventListener("click", () => {
-    window.location.href = "pages/every_place.html";
+    window.location.href = "every_place.html";
 })
 to_about.addEventListener("click", () => {
-    window.location.href = "pages/about.html";
+    window.location.href = "about.html";
 })
 to_sources.addEventListener("click", () => {
-    window.location.href = "pages/sources.html";
+    window.location.href = "sources.html";
 })

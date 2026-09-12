@@ -13,14 +13,16 @@ main{
     grid-area: main;
 }
 main div{
-    margin: 2%;
+    margin: 1.2%;
 }
 main div h1, h2, main h1, h3{
     font-weight: 600;
     justify-self: center;
     text-align: center;
 }
-
+#site_name{
+    font-size: 3rem;
+}
 #pic{
     display: flex;
     flex-direction: column;
@@ -100,4 +102,18 @@ footer div{
     display: grid;
     grid-template-columns: 6;
     grid-template-rows: 2;
+}
+#profile{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: auto 15%;
+}
+#profile img{
+    justify-self: center;
+    grid-column: 1;
+    border-radius: 25%;
+}
+#profile h1{
+    justify-self: flex-start;
+    grid-column: 2;
 }
