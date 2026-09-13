@@ -153,6 +153,19 @@ footer div{
 #sources_list ul li::before{
     content: "🚀 ";
 }
-li{
+#sources_list ul li{
     margin: 1rem;
+}
+#main_every{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: repeat(auto);
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    gap: 1.5rem;
+}
+.university{
+    background-color: rgba(145, 70, 206, 0.5);
+    border-radius: 5%;
 }
