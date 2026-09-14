@@ -181,6 +181,7 @@ footer div{
     width: 320px;
     height: 200px;
     margin: 1rem;
+    border-radius: 5%;
 }
 .footer_mover{
     display: flex;
