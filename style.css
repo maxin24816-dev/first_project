@@ -171,6 +171,8 @@ footer div{
     align-items: center;
     background-color: rgba(145, 70, 206, 0.5);
     border-radius: 5%;
+    width: 25rem;
+    height: 20rem;
 }
 .university:hover{
     cursor: pointer;
