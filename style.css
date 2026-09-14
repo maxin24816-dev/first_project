@@ -166,6 +166,22 @@ footer div{
     gap: 1.5rem;
 }
 .university{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: rgba(145, 70, 206, 0.5);
     border-radius: 5%;
+}
+.university:hover{
+    cursor: pointer;
+}
+.university img{
+    width: 320px;
+    height: 200px;
+    margin: 1rem;
+}
+.footer_mover{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
