@@ -143,7 +143,7 @@ footer div{
     margin: auto 25%;
     line-height: 2;
     flex-grow: 1;
-    width: max-content;
+    width: 30rem;
     justify-self: center;
 }
 #sources_list ul{
@@ -155,6 +155,14 @@ footer div{
 }
 #sources_list ul li{
     margin: 1rem;
+    font-size: 1.5rem;
+}
+#sources_list ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#sources_list ul li a:hover{
+    text-decoration:underline;
 }
 #main_every{
     display: grid;
